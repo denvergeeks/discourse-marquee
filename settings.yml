@@ -4,9 +4,12 @@ marquee_enabled:
 marquee_speed:
   default: 60
   min: 1
-  max: 600
+  max: 1000
   description:
     en: text speed, between 1 and 1000, lower is faster
 marquee_list:
   type: list
   default: item1|item2
+marquee_only_visible_to_logged_in_users:
+  type: bool
+  default: true
