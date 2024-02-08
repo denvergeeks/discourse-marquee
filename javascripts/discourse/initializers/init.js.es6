@@ -22,9 +22,9 @@ export default {
 
                 for (let i = 0; i < marquee_list.length; i++) {
                     let topic = document.createElement("li")
-                    let a = document.createElement("a")
-                    a.innerHTML = marquee_list[i]
-                    topic.appendChild(a)
+                    let p = document.createElement("p")
+                    p.innerHTML = marquee_list[i]
+                    topic.appendChild(p)
                     ul.appendChild(topic)
                 }
 
