@@ -1,26 +1,7 @@
 {
-  "name": "craigslist theme",
-  "component": false,
-  "components": ["https://github.com/discourse/discourse-header-search.git"],
-  "license_url": null,
-  "about_url": null,
-  "theme_version": 0.1,
-  "minimum_discourse_version": null,
-  "maximum_discourse_version": null,
-  "color_schemes": {
-    "craigslist": {
-      "primary": "222222",
-      "secondary": "ffffff",
-      "tertiary": "0000ff",
-      "quaternary": "7b1fa2",
-      "header_background": "ffffff",
-      "header_primary": "333333",
-      "highlight": "ffff4d",
-      "danger": "c80001",
-      "success": "009900",
-      "love": "fa6c8d"
-    }
-  },
-  "modifiers": {},
-  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+  "name": "marquee (news ticker)",
+  "component": true,
+  "license_url": "https://github.com/fokx/discourse-marquee/blob/main/LICENSE",
+  "about_url": "https://github.com/fokx/discourse-marquee/blob/main/README.md",
+  "theme_version": 0.1
 }

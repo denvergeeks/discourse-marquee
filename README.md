@@ -1,9 +1,5 @@
-# www theme
+# Discourse marquee theme component
 
-featuring brutalist web aesthetics inspired by craigslist and wikipedia
+add a marquee (news ticker) above title bar, only visible to logged-in users, marquee speed configurable 
 
----
-
-**Remember to select "Boxes with Featured Topics" in the Admin CP**
-
-![img](https://i.imgur.com/sI80tEo.png)
+adapted from https://github.com/carsick/www-theme

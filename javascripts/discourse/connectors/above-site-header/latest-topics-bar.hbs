@@ -1,5 +1,5 @@
-{{#if (theme-setting "marquee")}}
-  <article id="latest-topics-bar">
-    Loading…
-  </article>
+{{#if (and this.currentUser (theme-setting "marquee_enabled"))}}
+    <article id="marquee-bar">
+        Loading…
+    </article>
 {{/if}}
