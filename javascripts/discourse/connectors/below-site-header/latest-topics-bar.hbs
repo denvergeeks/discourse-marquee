@@ -1,4 +1,4 @@
-{{#unless (theme-setting "marquee_location_below_header_bar")}}
+{{#if (theme-setting "marquee_location_below_header_bar")}}
     {{#if (theme-setting "marquee_enabled")}}
         {{#if (theme-setting 'marquee_only_visible_to_logged_in_users')}}
             {{#if (and this.currentUser (theme-setting "marquee_enabled"))}}
@@ -12,4 +12,4 @@
             </article>
         {{/if}}
     {{/if}}
-{{/unless}}
+{{/if}}

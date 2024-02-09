@@ -7,7 +7,6 @@ export default {
             fetch("/latest.json")
                 .then((response) => response.json())
                 .then((data) => {
-                    // console.log(data)
                     updateLatest(data)
                 })
                 .catch((error) => console.log(error))
@@ -15,6 +14,9 @@ export default {
 
             function updateLatest(data) {
                 const list = document.getElementById("marquee-bar")
+                if (list == null){
+                    return
+                }
                 const div = document.createElement("div")
                 const ul = document.createElement("ul")
                 const ul2 = document.createElement("ul")
